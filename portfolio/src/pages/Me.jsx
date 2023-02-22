@@ -11,8 +11,8 @@ const Me = () => {
         <p>I am a Junior Full Stack Developer.</p>
         <p>This is my portfolio</p>
         <Link to={'./journey'} className="link--accent" href="./pages/journey.html">discover my journey</Link>
-        <div class="main__image bubble_two" id="hero_bubble" data-speed="2">
-        <img id="hero_img" src="../src/assets/images/boat.webp" data-speed="3" alt="a picture of me"/></div>
+        <div className="main__image bubble_two" id="hero_bubble">
+        <img id="hero_img" src="../src/assets/images/boat.webp" alt="a picture of me"/></div>
         <div className="bubble_one"></div>
         </main>
         </>
