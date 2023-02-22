@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
     <nav>
-    <Link to={'/'}><div class="sailbar">
-        <div class="bar">
+    <Link to={'/'}><div className="sailbar">
+        <div className="bar">
         <div></div>
         <div></div>
         <div></div>
