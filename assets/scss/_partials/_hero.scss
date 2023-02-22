@@ -1,0 +1,43 @@
+.main__image{
+
+        width: -moz-fit-content;
+        width: fit-content;
+        place-content: center;
+        display: flex;
+        background-color: rgba(196, 228, 236, 0.193);
+        border-radius: 100%;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        padding: 5rem;
+        box-shadow: inset #3a61644b 0 0 3rem;
+        border: 1px solid #96bccc;
+        z-index:-1;
+
+    img{
+
+        --width : 25rem;
+
+        width:var(--width);
+        aspect-ratio:1 / 1 ;
+        object-fit:cover;
+        position:relative;
+        border-radius:var(--width);
+    }
+}
+
+.bubble{
+    position:absolute;
+    background-color:#efefef53;
+    z-index:-1;
+}
+
+.bubble-one{
+    top:5rem;
+    width:40rem;
+    aspect-ratio:1 / 1;
+    border-radius:100%;
+    left:4rem;
+    filter:blur(4rem);
+
+}
