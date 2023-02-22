@@ -1,0 +1,56 @@
+.bubble_three{
+    border-radius:100%;
+    background-color:rgba(126, 154, 161, 0.266);
+    height:15rem;
+    z-index:-1;
+    aspect-ratio:1/1;
+    display:flex;
+    place-content:center;
+    align-items: center;
+
+    img{
+        width:10rem;
+        height:10rem;
+        border-radius:100%;
+        
+    }
+}
+
+.projectwrapper{
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+
+    .projectblock{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        position:relative;
+        width:45%;
+        gap:2rem;
+
+        h4{ 
+            position:absolute;
+            top:0;
+            left:15rem;
+            color:white;
+            font-size:2rem;
+            
+        }
+
+        .infos {
+            display: grid;
+            grid-template-columns: 5rem 18rem;
+
+            .Label{
+                color:white;
+            }
+
+            .info{
+                color:$deepblue;
+            }
+        }
+
+    }
+
+}
