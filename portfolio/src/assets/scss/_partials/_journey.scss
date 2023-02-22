@@ -49,3 +49,12 @@
     position:absolute;
     bottom:0rem;
 }
+
+.flyingCoder {
+	position: fixed;
+	top: 4rem;
+	right: 0;
+	height: 45rem;
+	transform: rotate(-24deg);
+    z-index:-2;
+}

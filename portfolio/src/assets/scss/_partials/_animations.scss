@@ -12,3 +12,18 @@
         transform:translateX(-1rem) translateY(1rem);
     }
 }
+
+@keyframes wheel{
+    0%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    75%{
+        transform: rotate(75deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+}

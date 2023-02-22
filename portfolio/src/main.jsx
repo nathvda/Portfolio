@@ -5,33 +5,34 @@ import Me from './pages/Me'
 import Project from './pages/Project'
 import Technologies from './pages/Technologies'
 import Journey from './pages/Journey'
+import Error404 from './pages/Error404'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element : <App/>,
-    errorElement: "??",
+    errorElement: <Error404/>,
     children : [
       {
         path:"/",
         element: <Me />,
-        errorElement:"??",
+        errorElement:<Error404/>,
       },
       {
       path: "projects",
       element: <Project/>,
-      errorElement:"??",
+      errorElement:<Error404/>,
       }, 
       {
         path: "technologies",
         element: <Technologies/>,
-        errorElement:"??",
+        errorElement:<Error404/>,
         }, 
         {
           path: "journey",
           element: <Journey/>,
-          errorElement:"??",
+          errorElement:<Error404/>,
           }
     ],
   },
