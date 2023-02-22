@@ -1,0 +1,14 @@
+@keyframes bubbles{
+    0%{
+        transform: translateX(1rem) translateY(-1rem);
+    }
+    50%{
+        transform: translateX(0rem) translateY(1rem);
+    }
+    75%{
+        transform: translateX(-1rem) translateY(-1rem);
+    }
+    100%{
+        transform:translateX(-1rem) translateY(1rem);
+    }
+}

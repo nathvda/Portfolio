@@ -1,0 +1,10 @@
+h1 {
+	background-image: linear-gradient(45deg, #005479, #e1624b);
+	width: fit-content;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	display: flex;
+	flex-direction: column;
+	line-height: 0.9;
+	font-weight:bold;
+}

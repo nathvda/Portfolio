@@ -1,0 +1,42 @@
+.main__image{
+        width:50rem;
+        place-content: center;
+        display: flex;
+        border-radius: 100%;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        padding: 5rem;
+        z-index:-1;
+
+    img{
+
+        aspect-ratio:1 / 1 ;
+        object-fit:cover;
+        position:relative;
+        border-radius:100%;
+    }
+}
+
+.bubble_two{
+    position:absolute;
+    z-index:-1;
+    position:absolute;
+    border-radius:100%;
+    background-color:rgba(126, 154, 161, 0.266);
+    z-index:-1;
+    aspect-ratio:1/1;
+    animation: bubbles 8s linear infinite alternate-reverse;
+}
+
+.bubble_one{
+    position:absolute;
+    border-radius:100%;
+    background-color:rgba(126, 154, 161, 0.266);
+    height:35rem;
+    top:10rem;
+    left:10rem;
+    z-index:-1;
+    aspect-ratio:1/1;
+    animation: bubbles 5s linear infinite alternate-reverse;
+}

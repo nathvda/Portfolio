@@ -1,11 +1,15 @@
 nav{
-    display:flex;
-    place-content:space-evenly;
-    align-items:center;
-    height:4rem;
+        display: flex;
+        place-content: flex-start;
+        align-items: center;
+        padding: 1rem;
+        left: 2rem;
+        position: relative;
+        gap: 10rem;
+        width:90%;
 
     a{ 
-        color:$thirdcolor;
+        color:#005479;
         font-size:1.5rem;
         opacity:0.6;
         transition: opacity 200ms;
@@ -18,19 +22,20 @@ nav{
 
     .sailbar{
         position:relative;
-        inset:1rem;
-        transition:transform 200ms;
+        transform:scale(0.5);
+        transition:transform 5000ms;
+        
 
         .bar{
             background-color:transparent;
-            border:0.4rem solid cadetblue;
+            border:0.4rem solid #005479;
             height:4rem;
             aspect-ratio:1 / 1;
             border-radius:100%;
             position:relative;
 
             div{
-                background-color:cadetblue;
+                background-color:#005479;
                 position:absolute;
     
             }
@@ -58,8 +63,8 @@ nav{
     }
 
     .sailbar:hover{
-        transform:rotate(180deg) scale(0.5);
+        transform:rotate(180deg) scale(.8);
         transition:transform 200ms;
-    }
+    }   
 
 }
