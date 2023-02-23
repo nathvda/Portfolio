@@ -2,6 +2,7 @@ import React from 'react';
 import JourneyBlock from './components/JourneyBlock';
 
 const Journey = () => {
+
     return (
         <>
             <section>
@@ -23,7 +24,7 @@ const Journey = () => {
             </JourneyBlock>
             <JourneyBlock date="Before 2023" title="Prologue">I'm itching to move. The sea of code is waiting for me. The land has given me everything it had, from a <b>Master in Movie analysis and writing</b> to a <b>Bachelor's Degree in Tranlsation in German and English</b>... I think it's time for me to take all of this with me an set sails for another place.</JourneyBlock>
         </section>
-        <img className="flyingCoder" src="../src/assets/images/FC.webp"/>
+        <img className="flyingCoder" src="../src/assets/images/FC.png"/>
         </>
     );
 };
