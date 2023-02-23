@@ -20,6 +20,7 @@ const Technologies = () => {
             <Techblock onClick={(e) => incr()} title="JAVASCRIPT" level="">Vanilla, React</Techblock>
             <Techblock onClick={(e) => incr()} title="PHP" level="">Vanilla</Techblock>
             <Techblock onClick={(e) => incr()} title="Bundlers" level="">Vite</Techblock>
+            <Techblock onClick={(e) => incr()} title="Databases" level="">MySQL, MongoDB</Techblock>
         </div>
         <div className="score">
             <b>Score : </b>

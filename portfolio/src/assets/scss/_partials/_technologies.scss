@@ -56,10 +56,16 @@
 }
 
 .technologiesblock:nth-child(5){
-    left:80rem;
-    top:25rem;
+    left:85rem;
+    top:15rem;
     animation:bubbles 5s infinite linear alternate-reverse;
 
+}
+
+.technologiesblock:nth-child(6) {
+	left: 70rem;
+    bottom: 1rem;
+	animation: bubbles 7s infinite linear alternate-reverse;
 }
 
 .technologiesblock:active{
