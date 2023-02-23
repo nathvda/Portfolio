@@ -1,13 +1,29 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Techblock from './components/Techblock';
 
 const Technologies = () => {
+
+    const [count, setCount] = useState(0);
+
+    const incr = () => {
+        setCount(count + 1);
+        console.log('clicked');
+    } 
+
     return (
         <>
         <h2>Technologies</h2>
-        <section className="technologies">
-        <h3>
-        This portfolio was created using Vite, React et Sass.</h3>  
-        <div className="techs">HTML, CSS, REACT, VITE, PHP...</div>
+        <section className="technologies"> 
+        <div className="techs">
+            <Techblock onClick={(e) => incr()} title="HTML" level="">No framework</Techblock>
+            <Techblock onClick={(e) => incr()} title="CSS" level="">Vanilla, Sass</Techblock>
+            <Techblock onClick={(e) => incr()} title="JAVASCRIPT" level="">Vanilla, React</Techblock>
+            <Techblock onClick={(e) => incr()} title="PHP" level="">Vanilla</Techblock>
+            <Techblock onClick={(e) => incr()} title="Bundlers" level="">Vite</Techblock>
+        </div>
+        <div className="score">
+            <b>Score : </b>
+            {count}</div>
         </section>
         </>
     );

@@ -7,9 +7,43 @@
     width:100%;
     height:100vh;
 
+    h2{
+        padding:0;
+    }
+
 
 
 .errorWheel{
     animation:wheel 10s ease-in-out infinite alternate-reverse;
 }
+}
+
+
+
+.backHome {
+	background-color: $deepblue;
+	padding: 2rem;
+	font-size: 2rem;
+	color: white;
+	border-radius: 10rem;
+}
+
+.pics {
+	width: 11rem;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	border-radius: 1rem;
+	position: absolute;
+}
+
+.pics:nth-of-type(2) {
+	left: 15rem;
+	position: absolute;
+	width: 21rem;
+}
+
+.pics:nth-of-type(3) {
+	right: 15rem;
+	position: absolute;
+	width: 21rem;
 }

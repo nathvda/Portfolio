@@ -10,6 +10,7 @@ main{
     width:100%;
     overflow-x:hidden;
     padding:8rem;
+    animation:fadein 1s forwards;
 }
 
 .link--accent{
@@ -17,7 +18,7 @@ main{
     font-weight:bolder;
     width:fit-content;
     position:relative;
-    padding:5rem;
+    padding:0 0 0 2rem;
 
     &::after{
         display:block;
@@ -29,11 +30,32 @@ main{
         border-radius:1rem;
         z-index:-2;
         position:relative;
+        transition: background-color 1s;
     }
+}
+
+.link--accent:hover::after{
+    background-color:$deepblue;
+    transition: background-color 0.5s;
+
 }
 
 h2{
     color:white;
     font-size:3rem;
     padding-left:5rem;
+}
+
+.contacts {
+        position: absolute;
+        z-index: 2;
+        right: 1rem;
+        top: 2rem;
+        display: flex;
+        width: 9rem;
+        justify-content: space-around;
+
+    a{
+        color:$deepblue;
+    }
 }

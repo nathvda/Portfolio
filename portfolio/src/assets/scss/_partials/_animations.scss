@@ -27,3 +27,72 @@
         transform: rotate(40deg);
     }
 }
+
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes movein{
+    0%{
+        right:-10rem;
+        transform:rotate(-34deg);
+    }
+
+    100%{
+        top: 4rem;
+        right: 0;
+        transform: rotate(-24deg); 
+    }
+}
+
+
+@for $i from 5 to 1{
+    .journeyblock:nth-child(#{$i}){
+        opacity:0;
+        animation: fadein 1s forwards;
+        animation-delay: $i * 0.1s;
+    }
+
+}
+
+@keyframes wave{
+    0%{
+        transform:translateY(0.2rem);
+    }
+    60%{
+        transform:translateY(-0.2rem);
+    }
+    100%{
+        transform:translateY(-0.2rem);
+    }
+}
+@keyframes growing{
+    0%{
+        opacity:0;
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(1.1);
+        opacity:1;
+    }
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+}
+
+@keyframes slidein{
+    0%{
+        transform:translateX(-2rem);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0rem);
+        opacity:1;
+    }
+}

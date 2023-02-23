@@ -7,7 +7,7 @@ const Me = () => {
         <main className="main__Me">
         <p>Welcome on board, Sailor!</p>
         <b>I am</b>
-        <h1><span>Nathalie</span> <span>Vanden Abeele</span></h1>
+        <h1><span><l>N</l><l>a</l><l>t</l><l>h</l><l>a</l><l>l</l><l>i</l><l>e</l></span> <span>Vanden Abeele</span></h1>
         <p>I am a Junior Full Stack Developer.</p>
         <p>This is my portfolio</p>
         <Link to={'./journey'} className="link--accent" href="./pages/journey.html">discover my journey</Link>

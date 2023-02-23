@@ -5,7 +5,7 @@ const Journey = () => {
     return (
         <>
             <section>
-            <h2>My journey</h2>
+            <h2>My resume</h2>
             <JourneyBlock date="May 2023" title="Chapter IV">
             It's time.<br/>
             The <b>Flying Coder</b> is finally ready. It's time for me to set sail. <b>Be/Code</b> is still with be for a few months, but I will need to find another home port for the time being. Maybe more. You never know what the ocean has got in store for you.

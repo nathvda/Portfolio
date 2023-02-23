@@ -6,7 +6,9 @@ const Error404 = () => {
         <>
             <section className="errorblock"><h2>Oops. Someone got lost.</h2>
             <img className="errorWheel" src="./src/assets/images/Wheel.webp" alt="404 error"/> 
-            <Link to={'/'}>Back to home menu</Link>
+            <Link className="backHome" to={'/'}>Back to home menu</Link>
+            <img className="pics" src="./src/assets/images/temple.webp"/>
+            <img className="pics" src="./src/assets/images/dice.webp"/>
             </section>
             </>
     );

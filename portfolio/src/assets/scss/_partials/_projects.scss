@@ -54,3 +54,12 @@
     }
 
 }
+
+@for $i from 1 to 100{
+    .projectblock:nth-child(#{$i}){
+        opacity:0;
+        transform:scale(0);
+        animation: growing 1s forwards ease-out;
+        animation-delay: ($i * 0.1s) + 0.2s;
+    }
+}

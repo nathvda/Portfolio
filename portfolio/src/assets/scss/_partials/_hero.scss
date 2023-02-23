@@ -8,6 +8,7 @@
         top: 1rem;
         padding: 5rem;
         z-index:-1;
+    
 
     img{
 
@@ -38,5 +39,5 @@
     left:10rem;
     z-index:-1;
     aspect-ratio:1/1;
-    animation: bubbles 5s linear infinite alternate-reverse;
+    animation: bubbles 5s linear infinite alternate;
 }
