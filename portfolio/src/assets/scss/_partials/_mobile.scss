@@ -1,0 +1,54 @@
+@media screen and (max-width:375px){
+    html {
+        font-size: 11px;
+    }
+
+    body nav{
+        gap: 2rem;
+display: flex;
+flex-direction: column;
+    }
+    .main__Me{
+        padding:3rem 4rem 4rem 4rem;
+    }
+
+    .link--accent {
+        font-size: 2rem;
+    }
+
+    .link--accent::after {
+        width: 19rem;
+    }
+
+    nav{
+        position:absolute;
+        z-index:1000;
+    }
+
+    nav a:nth-child(1) {
+        display:block;
+    }
+
+    nav a:nth-child(1) ~ a {
+        display:none;
+        background-color:rgba(255, 255, 255,0.5);
+        backdrop-filter:blur(1rem);
+    }
+
+    nav a:nth-child(1):focus-within ~ a {
+        background-color:rgba(255, 255, 255,0.5);
+        padding:1rem;
+        display:block;
+        position:relative;
+        backdrop-filter:blur(1rem);
+        width:100%;
+    }
+
+    nav .sailbar {
+        position: absolute;
+        transform: scale(0.5);
+        transition: transform 5000ms;
+        left: 1rem;
+        margin-bottom: 1rem;
+    }
+}
