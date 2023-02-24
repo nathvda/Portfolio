@@ -1,0 +1,94 @@
+@media screen and (max-width:820px){
+    body{
+       nav {
+        gap: 2rem;
+        a{
+            font-size:1.2rem;
+        }
+       }
+
+       .main__image{
+        width:25rem;
+        padding:2rem;
+        top:48rem;
+       }
+
+       .bubble_one{
+        top:20rem;
+        left:4rem;
+        height:20rem;
+       }
+
+       .main__Me{
+        padding:7rem 4rem 4rem 4rem;
+       }
+
+       h1{
+        font-size:5rem;
+       }
+
+       .projectwrapper {
+        flex-direction: column;
+
+        .projectblock{
+            width:auto;
+        }
+    }
+
+
+    }
+    .technologiesblock:nth-child(1), .technologiesblock:nth-child(2), .technologiesblock:nth-child(3), .technologiesblock:nth-child(4), .technologiesblock:nth-child(5)
+    ,.technologiesblock:nth-child(6){
+        animation-name:none;
+    }
+
+    .technologiesblock:nth-child(1) {
+        left: 2rem;
+        top: 12rem;
+    }
+
+    .technologiesblock:nth-child(3) {
+        left: 13rem;
+        top: 18rem;
+    }
+
+    .technologiesblock:nth-child(4) {
+        left: 37rem;
+        top: 15rem;
+    }
+
+    .technologiesblock:nth-child(5) {
+        left: 4rem;
+        top: 40rem;
+    }
+
+    .technologiesblock:nth-child(6) {
+        left: 22rem;
+        bottom: 2rem;
+    }
+
+    .technologiesblock:nth-child(2) {
+        left: 35rem;
+        top: 38rem;
+    }
+
+    .score {
+        top: 5rem;
+        right: 2rem;
+    }
+
+    .flyingCoder{
+        height:25rem;
+    }
+
+    .journeyblock {
+        width: 80%;
+        padding: 3rem;
+        margin: 5rem;
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(1rem);
+        border-radius: 0 1rem 1rem 0;
+        background-clip: padding-box;
+    }
+
+}
