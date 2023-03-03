@@ -12,7 +12,7 @@ const Me = () => {
         <p>This is my portfolio</p>
         <Link to={'./journey'} className="link--accent">discover my journey</Link>
         <div className="main__image bubble_two" id="hero_bubble">
-        <img id="hero_img" src={"/src/assets/images/boat.png"} alt="a picture of me"/></div>
+        <img id="hero_img" src={"/images/boat.png"} alt="a picture of me"/></div>
         <div className="bubble_one"></div>
         </main>
         </>
