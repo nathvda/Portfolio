@@ -3,6 +3,7 @@ h1 {
 	width: fit-content;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	-webkit-background-clip:text;
 	display: flex;
 	flex-direction: column;
 	line-height: 0.9;
