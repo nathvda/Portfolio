@@ -12,6 +12,7 @@
         width:10rem;
         height:10rem;
         border-radius:100%;
+        object-fit:cover;
         
     }
 }
@@ -62,4 +63,14 @@
         animation: growing 1s forwards ease-out;
         animation-delay: ($i * 0.1s) + 0.2s;
     }
+}
+
+.liveversion{
+        background-color: #398088;
+        display: block;
+        width: 14rem;
+        margin-top: 1rem;
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+        color: white;
 }

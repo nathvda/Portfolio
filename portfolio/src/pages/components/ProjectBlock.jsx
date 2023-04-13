@@ -10,7 +10,8 @@ const ProjectBlock = (props) => {
             <div className="infos">
             <span className="Label">Role:</span><span className="info">{props.role}</span>
             <span className="Label">Crew:</span><span className="info">{props.crew}</span>
-            <span className="Label">Year:</span><span className="info">{props.year}</span>      
+            <span className="Label">Year:</span><span className="info">{props.year}</span>
+            <a className="liveversion" href={props.url} target="_blank">See live version</a>      
             </div></section> 
         </>
     );

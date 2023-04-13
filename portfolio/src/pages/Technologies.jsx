@@ -15,10 +15,10 @@ const Technologies = () => {
         <h2>Technologies</h2>
         <section className="technologies"> 
         <div className="techs">
-            <Techblock onClick={(e) => incr()} title="HTML" level="">No framework</Techblock>
+            <Techblock onClick={(e) => incr()} title="HTML" level="">Vanilla</Techblock>
             <Techblock onClick={(e) => incr()} title="CSS" level="">Vanilla, Sass</Techblock>
             <Techblock onClick={(e) => incr()} title="JAVASCRIPT" level="">Vanilla, React</Techblock>
-            <Techblock onClick={(e) => incr()} title="PHP" level="">Vanilla</Techblock>
+            <Techblock onClick={(e) => incr()} title="PHP" level="">Vanilla, Laravel</Techblock>
             <Techblock onClick={(e) => incr()} title="Bundlers" level="">Vite</Techblock>
             <Techblock onClick={(e) => incr()} title="Databases" level="">MySQL, MongoDB</Techblock>
         </div>
